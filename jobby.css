@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif;
+}
+
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.lightBlue {
+  background-color: aliceblue;
+}
+
+#topRight {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#topLeft {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#title {
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.inside-img {
+  list-style-image: url("https://i.ibb.co/st61jns/Small-Black-Penguin.png");
+}
+
+#border1 {
+  border-style: none;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 40px;
+  background-color: rgb(229, 248, 253);
+}
+
+#border2 {
+  border-style: none;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  padding-bottom: 30px;
+  background-color: rgb(229, 248, 253);
+}
+
+#border3 {
+  font-size: smaller;
+  border-style: none;
+  background-image: url(https://img.freepik.com/free-vector/realistic-isolated-paper-question-seamless-pattern-invitation-decoration-concept-quiz-trivia_269299-1004.jpg?size=300&ext=jpg);
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-right: 50px;
+  padding-left: 30px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+
+div > p {
+  font-size: larger;
+  font-weight: bold;
+  color: black;
+}
+
+p,
+blockquote {
+  color: rgb(12, 10, 134);
+}
+
+a:visited {
+  color: rgb(132, 66, 158);
+}
+
+a:hover {
+  color: rgb(212, 13, 202);
+}
